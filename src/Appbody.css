@@ -57,7 +57,7 @@
 
 .appbody__body{
     padding: 100px;
-    height: 100vh;
+    /* height: 100vh; */
     margin-left: 10px;
     margin-bottom:70px;
     /* text-align: center; */
@@ -212,4 +212,150 @@
     text-align: center;
     margin-top: 30px;
     cursor: pointer;
+}
+
+.appbody__footer{
+    display: flex;
+    padding-bottom:10px;
+    border-bottom: 3px solid gray;
+}
+
+.appbody__footerleft{
+    display: flex;
+    border-right: 2px solid lightblue;
+}
+
+.appbody__footerleft img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.appbody__footerleft1{
+    display: flex;
+    padding: 15px;
+    /* align-items: center; */
+    /* justify-content:center; */
+}
+
+.appbody__footerleft1 > .MuiSvgIcon-root {
+    font-size:12px;
+    margin-right:5px;
+}
+.btn1{
+    color:lightgreen;
+
+}
+.btn3{
+    color:lightsalmon;
+
+}
+.btn4{
+    color:red;
+    ;
+}
+
+.btn2{
+    color:lightgray;
+}
+
+.appbody__footerleft1 h3{
+    font-size:10px;
+    font-weight:400;
+    /* padding-right: 100px; */
+}
+
+.appbody__footerleft1 h3 small{
+    color:grey;
+    margin-left: 10px;;
+}
+
+.footertitle h4{    
+    color:grey;
+    padding: 10px;
+
+}
+
+.propertyfooter input{
+    width: 50px;
+    background-color: #CECEA1;
+    border: none;
+    outline: 0;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: #CECEA1;
+}
+.dates,.payment,.amount{
+    padding: 5px;
+}
+.amount{
+    display: flex;
+    /* align-items: center; */
+}
+.dates p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.dates small{
+    color: grey;
+    font-size: 11px;
+}
+
+.payment h4{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.payment p{
+    color: grey;
+    font-size: 11px;
+}
+
+.amount p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.amount > .MuiSvgIcon-root {
+    font-size: 11px;
+    color: green;
+}
+
+.appbody__footerright{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.overall{
+    display: flex;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+
+.redarrow{
+    color: red;
+}
+
+.dashboardfinal{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboardfinal h3{
+    color:grey;
+}
+
+.dashboardfinal p{
+    color:blue;
+    cursor: pointer;
+    font-size: 14px;
 }
