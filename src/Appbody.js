@@ -26,7 +26,7 @@ function Appbody() {
                 <p>This Month</p>
                 <p>This Week</p>
                 </div>
-                <h1 className="title">Korea stay</h1>
+                <h1 className="title">Hotel stay</h1>
            </div>
              
            <div className="appbody__body">
